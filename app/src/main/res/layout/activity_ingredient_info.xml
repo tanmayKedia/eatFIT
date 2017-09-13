@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:background="@color/light_background"
+    >
+<LinearLayout
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginLeft="16dp"
+    android:layout_marginRight="16dp"
+    >
+    <TextView
+        android:id="@+id/ingredient_info_ingredient_name_text_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Glucose"
+        android:layout_marginTop="16dp"
+        android:textColor="@color/contrast_pink"
+        android:textStyle="bold"
+        android:textSize="36sp"
+        android:layout_marginLeft="-1dp"
+        />
+    <TextView
+        android:id="@+id/alternate_names_text_view_ingredient_info"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:textSize="16sp"
+        android:layout_marginTop="-4dp"/>
+    <TextView
+        android:id="@+id/symbol_text_view_ingredient_info"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="C6H12O6"
+        android:textSize="16sp"
+        android:layout_marginTop="-4dp"
+        android:visibility="gone"
+        />
+    <TextView
+        android:id="@+id/ingredient_info_ingredient_safety_text_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Safe"
+        android:textSize="16sp"
+        android:layout_marginTop="-4dp"/>
+    <FrameLayout
+        android:layout_marginTop="4dp"
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="@color/contrast_pink"
+        ></FrameLayout>
+    <TextView
+        android:id="@+id/ingredient_info_description"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#000000"
+        android:textSize="20dp"
+        android:layout_marginTop="16dp"
+        android:paddingLeft="8dp"
+        android:paddingRight="8dp"
+    />
+</LinearLayout>
+</ScrollView>

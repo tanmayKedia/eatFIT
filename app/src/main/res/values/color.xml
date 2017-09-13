@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="contrast_pink">#f50057</color>
+    <color name="dark_background">#2F2AF0</color>
+    <color name="light_background">#FFFFFA</color>
+    <color name="white">#FFFFFF</color>
+</resources>

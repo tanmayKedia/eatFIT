@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">eatFIT</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="search">Search for products and ingredients</string>
+    <string name="about">This is where the about info goes.</string>
+    <string-array name="drawer_list">
+        <item>Start</item>
+        <item>Products</item>
+        <item>Ingredients</item>
+        <item>About</item>
+        <item>Exit</item>
+    </string-array>
+    <string name="drawer_open">Drawer Open</string>
+    <string name="drawer_closed">Drawer closed</string>
+</resources>

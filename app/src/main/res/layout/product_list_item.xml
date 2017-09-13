@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="65dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal"
+    android:layout_marginBottom="12dp">
+    <ImageView
+        android:id="@+id/product_list_item_image_view"
+        android:layout_width="65dp"
+        android:layout_height="65dp"
+        android:src="@drawable/ic_placeholder"
+        android:layout_alignParentLeft="true"
+        android:layout_centerInParent="true"
+
+        />
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="8dp"
+        >
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:orientation="vertical"
+            >
+
+            <TextView
+                android:id="@+id/product_list_item_product_name_text_view"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="24sp"
+                android:layout_gravity="left"
+                android:textColor="#000000"
+                android:text="Bannana"
+                android:paddingBottom="0dp"
+                android:layout_marginBottom="0dp"
+                android:layout_marginLeft="-1dp"
+                android:layout_marginTop="8dp"
+                android:singleLine="true"
+                android:maxLines="1"
+                />
+            <TextView
+                android:layout_marginTop="-4dp"
+                android:layout_marginBottom="4dp"
+                android:id="@+id/product_list_item_company_text_view"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:layout_gravity="left"
+                android:gravity="start"
+                android:text="Nestle"
+                android:layout_below="@id/product_list_item_product_name_text_view"
+                />
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:background="@color/contrast_pink"
+                android:layout_gravity="bottom"
+                android:layout_alignParentBottom="true"
+                ></FrameLayout>
+        </RelativeLayout>
+    </FrameLayout>
+
+</LinearLayout>

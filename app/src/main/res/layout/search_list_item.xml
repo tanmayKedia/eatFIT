@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="48dp"
+    android:layout_marginBottom="8dp"
+
+    android:gravity="bottom"
+    >
+    <TextView
+        android:id="@+id/search_list_comment_text_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="12sp"
+        android:layout_gravity="left|center"
+        android:textColor="@color/contrast_pink"
+        android:text="Product by:"
+
+        />
+    <TextView
+        android:id="@+id/search_list_name_text_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="24sp"
+        android:layout_gravity="left|center"
+        android:textColor="#000000"
+        android:text="Nestle"
+        android:singleLine="true"
+        android:maxLines="1"
+        android:layout_marginBottom="4dp"
+        />
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="@color/contrast_pink"
+        android:layout_gravity="bottom"
+        ></FrameLayout>
+
+</LinearLayout>
