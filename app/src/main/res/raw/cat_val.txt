@@ -1,13 +1,1 @@
-(1, 1, 'Warzywa, owoce', 'BwXPPRs.jpg');
-(2, 2, 'Nabial', 'eYReV0l.jpg');
-(3, 3, 'Mieso, wedliny', 'WUpycx4.jpg');
-(4, 4, 'Napoje', 'bqbY5SD.jpg');
-(5, 5, 'Ryby, przetwory rybne', 'vfxLD56.jpg');
-(6, 6, 'Tluszcze', '9yM9wnO.jpg');
-(7, 7, 'Produkty zbozowe', 'RlKNL0Z.jpg');
-(8, 8, 'Nasiona, orzechy, grzyby, przyprawy', 'QsAfQKz.jpg');
-(9, 9, 'Slodkie', 'pclDtEV.jpg');
-(10, 10, 'Mrozonki', 'qF54t8O.jpg');
-(11, 11, 'Dania gotowe', 'kbqyqQr.jpg');
-(12, 12, 'Sosy', '2JvHBuz.jpg');
-(13, 13, 'Pozostale', 'm6tf48O.jpg');
+VALUES REMOVED TO PROTECT CLIENT DATA
